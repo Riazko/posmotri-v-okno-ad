@@ -252,7 +252,6 @@ ol {
   text-decoration: underline;
 }
 
-/* Общие стили кнопок */
 .button {
   background-color: transparent;
   border: 1px solid #fff;
@@ -265,19 +264,16 @@ ol {
   padding: 6px 73.5px;
 }
 
-/* Индивидуальные стили для кнопки "Найти" */
 .search-form__submit-button {
   width: 194px;
   align-self: end;
 }
 
-/* Индивидуальные стили для кнопки "Показать ещё" */
 .more-button {
   width: 100%;
   margin-top: 30px;
 }
 
-/* Состояния кнопок для всех кнопок на странице */
 .button:hover {
   text-decoration: underline;
 }
