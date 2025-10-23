@@ -236,7 +236,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__label:has(.search-form__checkbox:checked) .search-form__pseudo-checkbox::after {
   content: "";
   position: absolute;
   top: 1px;
